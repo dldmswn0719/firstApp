@@ -1,0 +1,13 @@
+.nav{
+    background-color: pink;
+    ul{
+        li{
+            &:hover{
+                background-color: skyblue;
+                a{
+                    color: white;
+                }
+            }
+        }
+    }
+}

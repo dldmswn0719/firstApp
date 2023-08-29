@@ -42,7 +42,7 @@ function Modal(){
     <>
         <div className='content-item' onClick={Modal}>
             <img src="https://i.pinimg.com/564x/0b/2f/d4/0b2fd4801d03fde3a349ac1ffca4dc73.jpg" alt="테스트" />
-            <h3>{title[props.arrayNum]}</h3> 
+            <h3 className='font-bold text-2xl my-1 text-gray-500'>{title[props.arrayNum]}</h3> 
             <p>{desc[props.arrayNum]}</p>
             {/* <p>{props.desc2}</p> */}
             <p onClick={goodFun}>👍 {good}</p>
